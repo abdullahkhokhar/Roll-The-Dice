@@ -4,6 +4,7 @@
 
 import React, { Component } from "react";
 import Die from "./Die";
+import './RollDice.css'
 
 class RollDice extends Component {
   static defaultProps = {
@@ -26,9 +27,11 @@ class RollDice extends Component {
 
   render() {
     return (
-      <div>
-        <Die face={this.state.die1} rolling={this.state.rolling} />
-        <Die face={this.state.die2} rolling={this.state.rolling} />
+      <div className="RollDice">
+        <div className="RollDice-container">
+          <Die face={this.state.die1} rolling={this.state.rolling} />
+          <Die face={this.state.die2} rolling={this.state.rolling} />
+        </div>
         <button onClick={this.roll}>Role Dice!</button>
       </div>
     );
