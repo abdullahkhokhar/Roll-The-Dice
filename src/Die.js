@@ -7,7 +7,6 @@ class Die extends Component{
     return(
       // need to render an individuaal die
       <i className = {`Die fas fa-dice-${this.props.face}`}></i>
-
     );
   }
 }
