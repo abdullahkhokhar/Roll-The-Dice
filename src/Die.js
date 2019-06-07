@@ -6,7 +6,7 @@ class Die extends Component{
   render(){
     return(
       // need to render an individuaal die
-      <i className = {`Die fas fa-dice-${this.props.face}`}></i>
+      <i className = {`Die fas fa-dice-${this.props.face} ${this.props.rolling ? "shaking" : ''}`}></i>
     );
   }
 }
