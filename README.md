@@ -1,3 +1,7 @@
+## Roll The Dice!
+![](roll_dice.gif)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
